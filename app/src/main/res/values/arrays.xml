@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array_department_options">
+        <item>@string/default_option</item>
+        <item>@string/department_android</item>
+        <item>@string/department_web</item>
+        <item>@string/department_hardware</item>
+        <item>@string/department_unknown</item>
+    </string-array>
+
+    <string-array name="array_status_options">
+        <item>@string/default_option</item>
+        <item>@string/status_staff</item>
+        <item>@string/status_intern</item>
+        <item>@string/status_unknown</item>
+    </string-array>
+</resources>

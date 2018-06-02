@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <ImageView
+        android:id="@+id/clarance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/download"/>
+
+    <RelativeLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/name_text"
+            android:layout_marginLeft="20dp"
+            android:textColor="@android:color/black"
+            android:textSize="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/name_tv"
+            android:text="Kenedy Afia"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/text_color_blue"
+            android:layout_marginRight="30dp"
+            android:textSize="@dimen/clarance"/>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/faculty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/faculty_text"
+            android:layout_marginLeft="20dp"
+            android:textColor="@android:color/black"
+            android:textSize="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/faculty_tv"
+            android:text="Engineering"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/text_color_blue"
+            android:layout_marginRight="30dp"
+            android:textSize="@dimen/clarance"/>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/department"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/department_text"
+            android:layout_marginLeft="20dp"
+            android:textColor="@android:color/black"
+            android:textSize="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/department_tv"
+            android:text="Electrical/Electronics"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/text_color_blue"
+            android:layout_marginRight="30dp"
+            android:textSize="@dimen/clarance"/>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/level"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/level_text"
+            android:layout_marginLeft="20dp"
+            android:textColor="@android:color/black"
+            android:textSize="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/level_tv"
+            android:text="500"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/text_color_blue"
+            android:layout_marginRight="30dp"
+            android:textSize="@dimen/clarance"/>
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/clarance_text"
+            android:textColor="@android:color/black"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dp">
+
+    <TextView
+        android:id="@+id/payment_due_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/payment_due_text"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@android:color/black"
+        android:textSize="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/outstanding_tv"
+        android:text="@string/outstanding_text"
+        android:textColor="@color/color_black"
+        android:layout_marginRight="30dp"
+        android:layout_below="@id/payment_due_tv"
+        android:layout_marginLeft="20dp"
+        android:textSize="@dimen/clarance"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:id="@+id/total_payment_tv"
+            android:text="@string/total_payment_text"
+            android:textColor="@color/color_black"
+            android:layout_marginRight="30dp"
+            android:layout_below="@id/outstanding_tv"
+            android:layout_marginLeft="20dp"
+            android:textSize="@dimen/clarance"/>
+
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="120dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="40dp"
+            android:src="@drawable/imagess"
+            />
+
+    </RelativeLayout>
+    
+
+
+
+</LinearLayout>

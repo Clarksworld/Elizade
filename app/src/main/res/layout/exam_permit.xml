@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/exam_layout">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="107dp"
+        android:background="@color/profile_color"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Exam Permit"
+            android:textColor="@color/white_text"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"/>
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp">
+
+        <TextView
+            android:id="@+id/names_texts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Names"
+            android:textSize="20dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:layout_marginLeft="30dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fees Status"
+            android:textSize="20dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:layout_marginLeft="150dp"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stanley Ebuka"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="@dimen/btn_ts"
+            android:textStyle="bold"
+            android:textSize="@dimen/btn_ts"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/markgood"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="@dimen/btn_ts"
+            android:layout_marginRight="60dp"/>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Adeshinu Addebayo"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="@dimen/btn_ts"
+            android:textStyle="bold"
+            android:textSize="@dimen/btn_ts"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/markgood"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="@dimen/btn_ts"
+            android:layout_marginRight="60dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Badmus Bolaji"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="@dimen/btn_ts"
+            android:textStyle="bold"
+            android:textSize="@dimen/btn_ts"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/markgood"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="@dimen/btn_ts"
+            android:layout_marginRight="60dp"/>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Daniel Okpako"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="@dimen/btn_ts"
+            android:textStyle="bold"
+            android:textSize="@dimen/btn_ts"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/markgood"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="@dimen/btn_ts"
+            android:layout_marginRight="60dp"/>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Micheal Favour"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="@dimen/btn_ts"
+            android:textStyle="bold"
+            android:textSize="@dimen/btn_ts"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/denied1"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="@dimen/btn_ts"
+            android:layout_marginRight="60dp"/>
+    </RelativeLayout>
+
+</LinearLayout>

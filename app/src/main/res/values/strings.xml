@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">Elizade</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="tab_one_title">Tab One</string>
+    <string name="tab_two_title">Tab Two</string>
+    <string name="tab_three_title">Tab Three</string>
+    <string name="school_motto">Pragmatic Innovation For Devolopment</string>
+    <string name="email_text">Email</string>
+    <string name="signup_password">Password</string>
+    <string name="login_text">LOGIN</string>
+    <string name="lecturer_text">LECTURER SIGN IN</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="amount_text">Amount</string>
+    <string name="card_number_text">Card Number</string>
+    <string name="save_text">SAVE CARD</string>
+    <string name="payment_text">PAY</string>
+    <string name="choose_card_text">CHOOSE SAVED CARD</string>
+    <string name="tab_text_1">PAYMENT</string>
+    <string name="tab_text_2">CLARANCE</string>
+    <string name="tab_text_3">EXEAT</string>
+    <string name="action_settings">Setting</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="name_text">Name</string>
+    <string name="faculty_text">Faculty</string>
+    <string name="department_text">Department</string>
+    <string name="level_text">Level</string>
+    <string name="clarance_text">CLARANCE</string>
+    <string name="payment_due_text">PAYMENT DUE</string>
+    <string name="outstanding_text">OUTSTANDING</string>
+    <string name="total_payment_text">TOTAL PAYMENT</string>
+    <string name="course_code_text">Enter Course Code</string>
+    <string name="semister_text">Enter Semister</string>
+    <string name="semester_text">Enter Semester</string>
+    <string name="levels_text">Enter Level</string>
+    <string name="session_text">Enter Session</string>
+    <string name="search_text">Search</string>
+
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="loading">Loading…</string>
+    <string name="desc_firebase_lockup">Firebase logo and name</string>
+    <string name="google_title_text">Google Sign In</string>
+    <string name="signed_out">Signed Out</string>
+    <string name="google_status_fmt">Google User: %s</string>
+    <string name="firebase_status_fmt">Firebase User: %s</string>
+    <string name="title_text">Med-Manager</string>
+    <string name="splash_message">Lets Help Manage Your Medication</string>
+    <string name="sign_in_option">sign in using</string>
+    <string name="or_option">or</string>
+    <string name="dont_have_account">dont have an account? SignUp</string>
+    <string name="signedout">Sign Out</string>
+    <string name="btn_forgot_password">forgot your password</string>
+    <string name="minimum_password">6 character</string>
+    <string name="auth_failed">could not signin</string>
+    <string name="forgot_password_test">Forgot password?>>></string>
+    <string name="forgot_password_message">Enter the Emial address that was used during sign up, a link will be sent for password reset</string>
+    <string name="forgot_password_retest">Reset Password</string>
+    <string name="back_button">back</string>
+    <string name="already_have_account">already have an account? Login</string>
+    <string name="signup_text">SignUp</string>
+    <string name="user_messge">click on continue to complete your profile setup</string>
+    <string name="profile_link_button">Continue</string>
+    <string name="save_button_save">save</string>
+    <string name="notification_title">medication notification</string>
+    <string name="notification_body">it\'s time to take your medication</string>
+    <string name="profile_signout_button">signout</string>
+    <string name="emails_text">Email</string>
+
+    //default spinner option
+    <string name="default_option"></string>
+
+    //spinner option for android
+    <string name="department_android">ANDROID</string>
+
+    //spinner option for web
+    <string name="department_web">WEB</string>
+
+    //spinner option for hardware
+    <string name="department_hardware">HARDWARE</string>
+
+    //spinner option for department unknown
+    <string name="department_unknown">UNKNOWN</string>
+
+    //spinner option for staff
+    <string name="status_staff">STAFF</string>
+
+    //spinner option for intern
+    <string name="status_intern">INTERN</string>
+
+    //spinner option for status unknown
+    <string name="status_unknown">UNKNOWN</string>
+    <string name="matric_text">Matric Number</string>
+
+
+</resources>

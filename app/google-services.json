@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "155990432075",
+    "firebase_url": "https://elizade-e7b3c.firebaseio.com",
+    "project_id": "elizade-e7b3c",
+    "storage_bucket": "elizade-e7b3c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:155990432075:android:ee072e00817a6f12",
+        "android_client_info": {
+          "package_name": "com.clarksworld.clarkson.testdraw1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "155990432075-olt0019b9ho1oiv4m68q1dcne4cgeslm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAE6aQk8FBhgumuFlScxUHE8RkbamGbUb8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

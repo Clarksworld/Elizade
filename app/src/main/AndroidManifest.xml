@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.clarksworld.clarkson.testdraw1">
+
+
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MEDIA_CONTENT_CONTROL" />
+    <uses-permission android:name="android.hardware.camera"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+
+    <application android:allowBackup="true"
+        android:icon="@drawable/elizadeuniversitylogo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/elizadeuniversitylogo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+
+        <activity android:name=".BaseActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+
+
+
+        </activity>
+        
+        <activity android:name=".activities.SplashScreenActivty"
+            android:theme="@style/AppTheme.NoActionBar">
+
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+
+        </activity>
+
+        <activity android:name=".activities.LecturerSignInActivity"
+            android:theme="@style/AppTheme.prefile">
+
+
+
+            
+        </activity>
+
+        <activity android:name=".activities.SignUpActivity"
+            android:theme="@style/AppTheme.prefile">
+
+
+        </activity>
+        
+        <activity android:name=".activities.SignInActivity"
+            android:theme="@style/AppTheme.prefile">
+
+
+
+        </activity>
+        <activity android:name=".activities.StudentInformationActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+
+
+
+        </activity>
+
+        <activity android:name=".studentauthentication.UserLogInActivity"
+            android:theme="@style/AppTheme.prefile">
+
+        </activity>
+
+        <activity android:name=".studentauthentication.EmailSignUpActivity"
+            android:theme="@style/AppTheme.prefile">
+
+
+        </activity>
+
+        <activity android:name=".activities.ResetPasswordActivity"
+            android:theme="@style/AppTheme.prefile">
+
+
+        </activity>
+
+        <activity android:name=".activities.EditProfileActivity">
+
+        </activity>
+
+        <activity android:name=".encriptanddecript.EncryptionActivity">
+
+
+
+        </activity>
+
+        <activity android:name=".encriptanddecript.EncryptSignUpActivity">
+
+
+
+
+        </activity>
+        <activity android:name=".activities.DecryptionActivity"
+            android:parentActivityName=".BaseActivity">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".BaseActivity">
+            </meta-data>
+
+
+        </activity>
+
+        <activity android:name=".activities.ExeatDetailActivity">
+
+        </activity>
+
+        <activity android:name=".activities.ExeatGeneratorActivity">
+
+        </activity>
+
+        <activity android:name=".activities.ExeactNotificationActivity">
+
+
+
+        </activity>
+
+        <activity android:name=".activities.ExamPermitActivity"
+            android:theme="@style/AppTheme.prefile">
+
+
+
+        </activity>
+
+        <activity android:name=".activities.PermitActivity"
+            android:parentActivityName=".BaseActivity">
+
+
+
+        </activity>
+
+        <activity android:name=".activities.PayFeesActivity"
+            android:label="@string/tab_text_1"
+            android:parentActivityName=".BaseActivity">
+
+        </activity>
+
+        <activity android:name=".activities.ExeatActivity"
+            android:label="@string/tab_text_3"
+            android:parentActivityName=".BaseActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".BaseActivity">
+            </meta-data>
+
+
+
+
+        </activity>
+
+        <activity android:name=".activities.ClaranceActivity"
+            android:label="@string/tab_text_2"
+            android:parentActivityName=".BaseActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".BaseActivity">
+            </meta-data>
+
+
+        </activity>
+
+
+        <activity android:name=".activities.UserSignupAuthActivity"
+            android:theme="@style/AppTheme.prefile">
+
+        </activity>
+
+
+
+    </application>
+
+</manifest>

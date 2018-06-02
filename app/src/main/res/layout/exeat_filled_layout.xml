@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_white">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="60dp">
+
+        <TextView
+            android:id="@+id/fialed-tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ACCESS DENIED!!!"
+            android:textSize="26dp"
+            android:textColor="@color/red_text"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/error_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/denied1"
+            android:layout_below="@id/fialed-tv"
+            android:layout_centerInParent="true"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/failed_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Continue"
+            android:background="#172549"
+            android:textColor="@color/white_text"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="110dp"
+            android:layout_marginLeft="110dp"
+            android:drawableRight="@drawable/ic_arrow_forward_black_24dp"/>
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

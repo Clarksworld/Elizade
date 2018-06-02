@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/firstname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="janet"
+            android:textSize="20sp"
+            android:layout_marginLeft="50dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/lastname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="jackson"
+            android:textSize="20sp"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/phoneN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="07069874512"
+        android:layout_marginLeft="50dp"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/emailA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JannetWhite@gmail.com"
+        android:layout_marginLeft="50dp"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/departmenttext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Android"
+        android:layout_marginLeft="50dp"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/statusText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="staff"
+        android:layout_marginLeft="50dp"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/time_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10.00Am"
+        android:layout_marginLeft="50dp"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/signin_btn"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="120dp"
+        android:text="signin"
+        android:background="#1e037e"/>
+
+</LinearLayout>

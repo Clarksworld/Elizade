@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context="com.clarksworld.clarkson.testdraw1.encriptanddecript.EncryptionActivity">
+
+    <LinearLayout
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/first_name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_marginLeft="90dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/last_name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_marginLeft="60dp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/phone_number_tv"
+        android:textStyle="italic"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="sans-serif"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/email_tv"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="italic"
+        android:fontFamily="sans-serif"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/department_spinner_tv"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="italic"
+        android:fontFamily="sans-serif"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/status_spinner_tv"
+        android:textStyle="italic"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="sans-serif"/>
+
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:text="generate code"/>
+
+
+    <ImageView
+        android:id="@+id/qr_image"
+        android:layout_marginTop="20dp"
+        android:layout_width="240dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        tools:src="@drawable/imagess"/>
+
+
+
+</LinearLayout>
